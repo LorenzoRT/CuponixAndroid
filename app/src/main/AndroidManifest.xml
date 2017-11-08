@@ -25,7 +25,9 @@
         <activity android:name=".EmpresasActivity" />
         <activity android:name=".SucursalesActivity" />
         <activity android:name=".PromocionesActivity" />
-        <activity android:name=".CuponActivity"></activity>
+        <activity android:name=".CuponActivity" />
+        <activity android:name=".MisCuponesActivity" />
+        <activity android:name=".EditarPerfilActivity"></activity>
     </application>
 
 </manifest>

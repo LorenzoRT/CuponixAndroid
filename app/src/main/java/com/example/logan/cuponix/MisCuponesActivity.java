@@ -4,16 +4,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class CategoriasActivity extends AppCompatActivity {
+public class MisCuponesActivity extends AppCompatActivity {
 
-    ListView categorias;
+    ListView misCupones;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_categorias);
-        setTitle("Categorías");
+        setContentView(R.layout.activity_mis_cupones);
+        setTitle("Mis cupones");
 
-        categorias = (ListView) findViewById(R.id.listaCategorias);
+        misCupones = (ListView) findViewById(R.id.listaMisCupones);
+
     }
 }
